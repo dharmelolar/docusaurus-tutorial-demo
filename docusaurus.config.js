@@ -78,8 +78,8 @@ const config = {
             position: "left",
             label: "Tutorial",
           },
-          { to: "/apidocs", label: "API Documentation", position: "left" },
-          { to: "/references", label: "Reference", position: "left" },
+          { to: "apidocs", label: "API Documentation", position: "left" },
+          { to: "references", label: "Reference", position: "left" },
           { to: "/blog", label: "Blog", position: "left" },
 
           // GITHUB ICON
