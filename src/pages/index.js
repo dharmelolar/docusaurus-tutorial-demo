@@ -34,7 +34,7 @@ function HomepageHeader() {
           </Link>
         </div>
       </div>
-      <div>
+      <div className="banner__img">
         <img src= {heroImage} alt="at something"/>
       </div>
     </header>
