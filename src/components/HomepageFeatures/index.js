@@ -59,6 +59,6 @@ export default function HomepageFeatures() {
           ))}
         </div>
       </div>
-    </section>
+    </section> 
   );
 }

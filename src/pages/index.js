@@ -14,15 +14,16 @@ function HomepageHeader() {
   return (
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className="container">
-        <span className="hero__pretext">Hands-on tutorial 🔥</span>
+        <div className="hero__pretext">
+          <span>Hands-on tutorial 🔥</span>
+        </div>
         <Heading as="h1" className="hero__title">
           Get Started With Docs Site
         </Heading>
         <p className="hero__subtitle">
           Docs Site is a comprehensive platform designed to help you create,
-          manage, and share documentation effortlessly. Whether you're a
-          developer, writer, or project manager, Docs Site offers the tools you
-          need to keep your documents organized and accessible.
+          manage, organize and share documentation effortlessly. Whether you're
+          a developer, writer, or project manager.
         </p>
         <div className={styles.buttons}>
           <Link
@@ -35,12 +36,11 @@ function HomepageHeader() {
         </div>
       </div>
       <div className="banner__img">
-        <img src= {heroImage} alt="at something"/>
+        <img src={heroImage} alt="at something" />
       </div>
     </header>
   );
 }
-
 
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
