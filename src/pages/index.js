@@ -10,7 +10,6 @@ import "../css/custom.css";
 import heroImage from "../../static/img/header-img.png";
 
 function HomepageHeader() {
-  const { siteConfig } = useDocusaurusContext();
   return (
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className="container">
@@ -47,7 +46,7 @@ export default function Home() {
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      description="Organize your documentation <head />"
     >
       <HomepageHeader />
       <main>
