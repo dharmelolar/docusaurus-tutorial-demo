@@ -41,18 +41,16 @@ const config = {
       ({
         docs: {
           sidebarPath: "./sidebars.js",
-    
+
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/docs-site",
+          editUrl: "https://github.com/docs-site",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/docs-site",
+          editUrl: "https://github.com/docs-site",
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -79,12 +77,17 @@ const config = {
             position: "left",
             label: "Tutorial",
           },
+          // {
+          //   type: "doc",
+          //   sidebarId: "api",
+          //   docId: "API/overview",
+          //   position: "left",
+          //   label: "API Documentation",
+          // },
           {
-            type: "doc",
-            sidebarId: "pieces",
-            docId: "apidocs/apidocs",
+            to: "docs/api/overview",
+            label: "API Documentation",
             position: "left",
-            label: "Pieces",
           },
           { to: "references", label: "Reference", position: "left" },
           { to: "/blog", label: "Blog", position: "left" },
@@ -100,7 +103,7 @@ const config = {
         ],
       },
       footer: {
-         // className:'--ifm-footer-background-color',
+        // className:'--ifm-footer-background-color',
         links: [
           {
             title: "Docs",
