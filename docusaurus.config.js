@@ -77,18 +77,18 @@ const config = {
             position: "left",
             label: "Tutorial",
           },
-          // {
-          //   type: "doc",
-          //   sidebarId: "api",
-          //   docId: "API/overview",
-          //   position: "left",
-          //   label: "API Documentation",
-          // },
           {
-            to: "docs/api/overview",
-            label: "API Documentation",
+            type: "doc",
+            sidebarId: "api",
+            docId: "API/overview",
             position: "left",
+            label: "API Documentation",
           },
+          // {
+          //   to: "docs/api/overview",
+          //   label: "API Documentation",
+          //   position: "left",
+          // },
           { to: "references", label: "Reference", position: "left" },
           { to: "/blog", label: "Blog", position: "left" },
 
