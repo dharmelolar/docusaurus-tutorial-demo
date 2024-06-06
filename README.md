@@ -1,41 +1,17 @@
-# Website
+# Set up a Documentation Site with Docusaurus
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Setting up Docusaurus for the first time may seem very challenging, but fear not! This tutorial covers everything you need to know to set up Docusaurus effortlessly. 
 
-### Installation
 
-```
-$ yarn
-```
+In this comprehensive tutorial, you'll learn:
 
-### Local Development
+- The prerequisites for getting started with Docusaurus.
+- How to install and launch a Docusaurus project.
+- Customization options for your documentation site, including navbar, footer, and color palette customization.
+- Adding new pages and sections to your site's navigation.
+- Homepage customization and styling using React components.
+- Conclusion summarizing the power and flexibility of Docusaurus for creating professional documentation sites.
 
-```
-$ yarn start
-```
+Link to tutorial: [Medium](/) 
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+You can find the demo built in this tutorial here [here](https://docs-site-demo.netlify.app/)
