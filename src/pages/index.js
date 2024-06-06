@@ -46,7 +46,7 @@ export default function Home() {
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="Organize your documentation <head />"
+      description="Organize your documentation"
     >
       <HomepageHeader />
       <main>
