@@ -9,3 +9,4 @@ To get started with DocSite, simply sign up for an account and start creating yo
 
 ## Can I customize the look and feel of my documentation site?
 Yes, DocSite allows you to customize the appearance of your documentation site to match your branding and style preferences. You can customize colors, fonts, logos, and more to create a unique look for your documentation.
+
