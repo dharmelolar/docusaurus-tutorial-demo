@@ -38,10 +38,10 @@ const sidebars = {
     {
       type: 'category',
       label: 'API',
-      items: ['API/overview', 'API/use-cases', 'API/faq'],
+      items: ['API/overview', 'API/use-cases', 'API/faq', 'API/test'],
       collapsible: true
     },
   ],
-};
+}; 
 
 export default sidebars;

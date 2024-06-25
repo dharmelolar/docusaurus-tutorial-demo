@@ -33,6 +33,7 @@ const config = {
     defaultLocale: "en",
     locales: ["en"],
   },
+  themes: ['@docusaurus/theme-live-codeblock'],
 
   presets: [
     [
@@ -117,12 +118,10 @@ const config = {
             position: "left",
             label: "API Documentation",
           },
-          // {
-          //   to: "docs/api/overview",
-          //   label: "API Documentation",
-          //   position: "left",
-          // },
+         
           { to: "references", label: "Reference", position: "left" },
+          // { to: "test", label: "test", position: "left" },
+
           { to: "/blog", label: "Blog", position: "left" },
 
           // GITHUB ICON
@@ -172,6 +171,7 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+      
     }),
 };
 

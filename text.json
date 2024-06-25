@@ -1,0 +1,45 @@
+
+{
+  "id": 0,  
+  "category": {
+    "type": "Cats"
+  },
+  "name": "Whiskers",
+  "photoUrls": [
+    "https://googledrive.com/whiskers-01.jpg",
+    "https://googledrive.com/whiskers-02.jpg"
+  ],
+  "status": "available"
+}
+
+
+
+
+
+[
+    {
+      "id": 1,
+      "category": {
+        "type": "Dogs"
+      },
+      "name": "jack",
+      "photo": [
+        "https://googledrive.com/jack-01.jpg",
+        "https://example.com/jack-02.jpg"
+      ],
+      "status": "available"
+    },
+    {
+      "id": 2,
+      "category": {
+        "type": "Cats"
+      },
+      "name": "dawn",
+      "photo": [
+        "https://googledrive.com/dawn-01.jpg"
+      ],
+      "status": "available"
+    }
+  ]
+
+  GET /pet/findByStatus?status=available
