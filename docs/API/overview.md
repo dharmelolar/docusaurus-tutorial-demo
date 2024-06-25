@@ -18,7 +18,7 @@ DocSite is a powerful documentation management platform designed to simplify the
 - Whether you're a software developer, project manager, or technical writer, DocSite provides the tools you need to streamline your documentation workflow and enhance collaboration within your team.
 
 
-```jsx showLineNumbers 
+```jsx live
 function App() {
   const handleClick = () => {
     const response = window.confirm("Do you love using Docusaurus?");
